@@ -1,0 +1,43 @@
+.field-dialog {
+    border: 1px solid #747575;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.field-dialog span {
+    cursor: default;
+}
+
+.table-splitter {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.clearing-table .MuiTable-root tr th {
+    border: 1px solid #d3d3d3 !important;
+}
+
+.clearing-approval-buttons {
+    display: flex;
+    /* gap: 15px; */
+    margin-right: 12px
+}
+.clearing-approval-buttons .reject{
+    border-radius: 20px 0px 0px 20px;
+}
+.clearing-approval-buttons .approve{
+    border-radius: 0px 20px 20px 0px;
+    margin-right: 18px;
+}
+.customTextField{
+    width: 130px;
+}
+.customTextField .MuiInputAdornment-root .MuiTypography-root{
+    font-size: 11px;
+    color: black;
+}

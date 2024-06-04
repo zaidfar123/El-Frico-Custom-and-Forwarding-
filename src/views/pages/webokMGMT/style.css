@@ -1,0 +1,12 @@
+.field-dialog {
+    border: 1px solid #747575;
+    padding: 12px;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.field-dialog span {
+    cursor: default;
+}
